@@ -1,0 +1,144 @@
+/* ADMIN PANEL STYLES */
+
+.tb_metabox-holder {
+    overflow: auto;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.tb_input_small,
+.tb_input_big {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.tb_input_big {
+    min-height: 100px;
+}
+
+.tb_shortcodearea {
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    width: auto;
+    color: #e4e4e4;
+    background-color: #1f1e1e;
+    border: 1px solid #e0dfdf;
+}
+
+.tb_shortcodetext {
+    margin-right: 7px;
+}
+
+.tb_shortcode {
+    padding: 7px;
+    background-color: #2b9cd0;
+    font-family: monospace;
+    color: white;
+    font-size: 13px;
+}
+
+.addtab {
+    width: 100%;
+    font-size: 16px;
+    padding: 11px;
+}
+
+.addbox > span {
+    margin-right: 10px;
+    font-size: 13px;
+    vertical-align: bottom;
+}
+
+.addbox > .fa {
+    color: white;
+    font-size: 20px;
+}
+
+.addbox {
+    background-color: grey;
+    background-color: #4CAF50;
+    padding: 7px;
+    width: auto;
+    display: inline;
+    color: white;
+}
+
+.addbox:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.tb_label {
+    cursor: auto;
+    font-size: 15px;
+    font-weight: 600;
+    color: #4b4e4b;
+}
+
+.tb_fieldright {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tb_innercontent {
+
+    font-family: sans-serif;
+    line-height: 19px;
+    font-size: 15px;}
+
+.tb_fieldleft {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tb_tabarea {
+    font-family: sans-serif;
+    max-width: 700px;
+}
+
+.tb_tabarea ul li.tb_active {
+    background-color: #04364c;
+}
+
+.tb_tabarea ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tb_activetab {background-color: #596d8c;}
+
+.tb_tabcontent {
+    border: 1px solid #dadada;
+    padding: 20px;
+}
+
+.tb_tabarea ul li {
+    display: inline-block;
+    padding: 0px 12px;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 36px;
+    margin-right: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-top-right-radius: 5px;
+    background-color: #1e3e6d;
+
+
+}
+
+.tb_tabarea ul li:hover {
+    background-color: #596d8c;
+}
